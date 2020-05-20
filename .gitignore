@@ -31,6 +31,8 @@
 *.out
 *.app
 
-build/
-bin/
+build/*
+!build/.gitkeep
+bin/*
+!bin/.gitkeep
 compile_commands.json
